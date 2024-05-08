@@ -7,3 +7,11 @@
 Code: 
 
 `git submodule add https://github.com/ItsNotDaan/KiCad_Lib_ItsNotDaan.git Library/GitHub_Library`
+
+
+
+## To Update if needed:
+
+Code:
+
+`git submodule update --remote --merge`
