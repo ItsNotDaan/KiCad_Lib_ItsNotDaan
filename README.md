@@ -6,4 +6,4 @@
 
 Code: 
 
-`git submodule add https://github.com/ItsNotDaan/KiCad_Lib_ItsNotDaan.git Library GitHub_Library`
+`git submodule add https://github.com/ItsNotDaan/KiCad_Lib_ItsNotDaan.git Library/GitHub_Library`
