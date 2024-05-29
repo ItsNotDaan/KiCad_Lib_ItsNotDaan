@@ -15,6 +15,14 @@ Code:
 
 `git submodule update --remote --merge`
 
+## To push changed to main:
+```bash
+git checkout externalChanges
+git add .
+git commit -m "Restored Version"
+git push origin externalChanges
+```
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 # Add to custom KiCad Project:
