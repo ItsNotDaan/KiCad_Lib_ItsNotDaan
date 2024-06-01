@@ -5,8 +5,11 @@
 3. Input the following code
 
 Code: 
-
+Add into a repo:
 `git submodule add https://github.com/ItsNotDaan/KiCad_Lib_ItsNotDaan.git Library/GitHub_Library`
+
+Add into directory:
+`git clone --recurse-submodules https://github.com/ItsNotDaan/KiCad_Lib_ItsNotDaan.git Library/GitHub_Library`
 
 
 ## To Update if needed:
