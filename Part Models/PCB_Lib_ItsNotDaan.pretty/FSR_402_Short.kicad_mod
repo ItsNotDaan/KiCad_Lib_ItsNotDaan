@@ -1,0 +1,180 @@
+(footprint "FSR_402_Short"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 6.29 -2.717 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3edfc620-7d7f-4628-8b2f-8b7783f7baab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FSR_402_Short"
+		(at 9.275 -1.325 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c584142b-95f6-46ed-9b47-9dbae1258d87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8dbe5fd9-c69c-4a20-951b-d7b8b72b7558")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3750fa31-b9e9-40e5-b52a-43be219f46ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Interlink Electronics"
+		(at 16.65 -14.125 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8faa68e-3187-42f7-98f2-82058129014e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
+		(at 16.65 -14.125 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f421e71f-d718-4c72-908b-fe6f2b9ba76a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK1URL" "https://f.hubspotusercontent20.net/hubfs/3899023/Integration%20Guides/FSR%20X%20%26%20UX%20Integration%20Guide%20-%20Interlink%20Electronics.pdf"
+		(at 16.65 -14.125 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23ec1118-d9be-4ac8-a007-efd8cc90e284")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.325 -7.014)
+		(end 3.275 1.114)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "10f19e9b-e945-427b-9da9-ea761efed7c1")
+	)
+	(fp_circle
+		(center -0.085 -15.367)
+		(end -0.085 -24.467)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "779c27d7-f636-41c6-9aa7-e06bf898ad08")
+	)
+	(fp_circle
+		(center -0.085 -15.367)
+		(end -0.085 -21.717)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "03515c37-5d6c-4755-9558-2f39cf3e946c")
+	)
+	(fp_text user "-"
+		(at 2.24 3.433 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "807b1c22-1038-44a0-a1b5-06be388fa0d5")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at -4.635 3.183 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "836406d2-5775-4c5c-a51b-891b019d1f83")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 9.025 0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "13510353-2f3c-4349-a182-462f75d22497")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.225 2.275 270)
+		(size 4 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c9daccc6-bea3-40fa-a472-8002f7d3aa0e")
+	)
+	(pad "2" smd rect
+		(at -1.315 2.275 270)
+		(size 4 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8b6f1ed3-8be1-4d67-8070-e8ff5e3d8ca4")
+	)
+	(embedded_fonts no)
+)

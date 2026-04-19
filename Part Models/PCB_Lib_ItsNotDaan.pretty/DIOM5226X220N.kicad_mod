@@ -1,0 +1,212 @@
+(footprint "DIOM5226X220N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMA CASE 403D-02")
+	(tags "Diode")
+	(property "Reference" "D**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "b5afd1a2-c09c-485d-a2a3-511453c4db51")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DIOM5226X220N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dfb8b667-f97d-4c75-83bb-930b7161314c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "DIOM5226X220N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b47f0cb-b9b0-484f-9a2c-938ca411eed3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74676101-370a-4b2c-be51-7c88c61d3e66")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e5e085a-7647-4ebe-816b-552058f61d6f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.605 1.302)
+		(end 2.605 1.302)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dda02430-374e-4e51-aead-88d2fd41ec14")
+	)
+	(fp_line
+		(start 2.605 -1.302)
+		(end -2.925 -1.302)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c03c2089-d476-4e07-a537-715eccb11b77")
+	)
+	(fp_line
+		(start -3.55 -1.71)
+		(end 3.55 -1.71)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b147b8a5-7f99-4780-b297-1a1986bd8a48")
+	)
+	(fp_line
+		(start -3.55 1.71)
+		(end -3.55 -1.71)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b0f937bc-6e10-4af3-8586-eaf6f88905d8")
+	)
+	(fp_line
+		(start 3.55 -1.71)
+		(end 3.55 1.71)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf6de70a-8f9f-47ac-8abf-682f96a23e81")
+	)
+	(fp_line
+		(start 3.55 1.71)
+		(end -3.55 1.71)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c6d5dc3c-6ed4-48b0-b24e-9fe24c989418")
+	)
+	(fp_line
+		(start -2.605 -1.302)
+		(end 2.605 -1.302)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9433a256-519a-49d1-89da-af03e16f2e7a")
+	)
+	(fp_line
+		(start -2.605 -0.528)
+		(end -1.83 -1.302)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3479b059-f1c5-40c8-a5b0-a29d936e5485")
+	)
+	(fp_line
+		(start -2.605 1.302)
+		(end -2.605 -1.302)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "92712ccd-b264-4864-82c3-b5d741994ae5")
+	)
+	(fp_line
+		(start 2.605 -1.302)
+		(end 2.605 1.302)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08dc768d-f08b-4c8d-b76f-d2e14ba2d045")
+	)
+	(fp_line
+		(start 2.605 1.302)
+		(end -2.605 1.302)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "15bc940b-a386-43b2-a2fc-ab7bafff60fb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c3f024a1-f139-40a0-a372-4bb25e861dce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.15 0 90)
+		(size 1.55 2.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5e1e2645-fe35-4a95-82e6-b1a8c52a78b8")
+	)
+	(pad "2" smd rect
+		(at 2.15 0 90)
+		(size 1.55 2.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ea28e635-e439-4ae1-ad64-0d900e490c51")
+	)
+	(model "C:\\Users\\Daanh\\OneDrive - Saxion\\Desktop\\KiCad Lib\\SamacSys\\SamacSys_Parts.3dshapes\\MBRA130LT3G.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
