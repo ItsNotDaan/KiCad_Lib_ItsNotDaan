@@ -1,0 +1,246 @@
+(footprint "L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "inductor handsolder")
+	(property "Reference" "REF**"
+		(at -0.075 1.675 90)
+		(layer "F.SilkS")
+		(uuid "0544f3a0-d7de-42c7-9406-e3fe1aff4b93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2n2"
+		(at 0 1.43 0)
+		(layer "F.Fab")
+		(uuid "e1c27c60-23bf-4d0d-bd83-97b7a845c72f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbb0325f-3066-42d8-8332-3d1d77825a6e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "500mA 2.2nH 100mΩ 0603"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13ab6f29-5cc5-4573-b9b5-ebe5e3c5285a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Allied_Number" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1359630c-5769-4100-82c5-4d36eb44ae55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC PART #" "C29682"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "901d624f-2ce1-4204-ad23-c5b3157b0cf9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Sunlord "
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "353fbff0-f28f-47bc-9a27-9f4207de0e38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SDCL1608C2N2STDF"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99070ef4-6253-445a-9155-c9072d3ab385")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.171267 -0.51)
+		(end -0.171267 -0.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53cc46db-7071-49cc-a7f8-e1a296d8e95e")
+	)
+	(fp_line
+		(start 0.171267 0.51)
+		(end -0.171267 0.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb3ccfe7-9fdd-44a6-b8a8-94d5274e7708")
+	)
+	(fp_line
+		(start -1.65 -0.73)
+		(end -1.65 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5f400995-7e32-45fc-a645-268f9bbd725c")
+	)
+	(fp_line
+		(start -1.65 0.73)
+		(end 1.65 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a65966c-6d23-49b6-b119-c45c3ddecc8c")
+	)
+	(fp_line
+		(start 1.65 -0.73)
+		(end -1.65 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0fea4241-780a-4750-99b8-40b602cb6af1")
+	)
+	(fp_line
+		(start 1.65 0.73)
+		(end 1.65 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fd3f3f9e-3c96-4746-a256-5f19c22d4425")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c29614ac-c77e-4774-9511-6e0590a22fea")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "116927be-adc1-4966-be7a-b6d6d60e2ad8")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81d6b09a-a2a8-4ae2-810b-11a7709015f1")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "50955ae3-8403-4afa-8097-940e7a2ff869")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8745b4fe-53e5-4d21-b020-a55f79b829b2")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.875 0)
+		(size 1.05 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7a25a019-1371-4f3e-b555-3f95d024f666")
+	)
+	(pad "2" smd roundrect
+		(at 0.875 0)
+		(size 1.05 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1b20ab35-0fc6-4c5e-9fc8-6077d3f42b30")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

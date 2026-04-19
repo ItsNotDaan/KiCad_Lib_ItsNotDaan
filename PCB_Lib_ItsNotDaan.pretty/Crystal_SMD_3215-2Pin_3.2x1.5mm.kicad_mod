@@ -1,0 +1,255 @@
+(footprint "Crystal_SMD_3215-2Pin_3.2x1.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf")
+	(tags "SMD SMT Crystal")
+	(property "Reference" "REF**"
+		(at 0.015 2.16 90)
+		(layer "F.SilkS")
+		(uuid "677cd1dc-03be-4e5e-8610-a37d016a12fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "32.768KHz"
+		(at 0 2 180)
+		(layer "F.Fab")
+		(uuid "98c12d7e-33bd-44cb-9e4f-4b25592a743d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "511c3683-6ebb-45ec-8416-fcb35801a4cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD3215-2P Crystals ROHS - 32.768KHz"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70568593-4c40-44ac-a307-7b26f286bb0e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Allied_Number" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b552c813-efa7-449b-b34a-a13fe133e523")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC PART #" "C93232"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2554e71b-f105-484a-b89b-1d100cbbf8a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "DST310S 32.768KHz"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ded3ca3f-da9e-4336-9ebb-8e3fc8df32fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "PANASONIC"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d88117e-8c74-4d90-b919-fbfbd9e39812")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.675 -0.875)
+		(end -0.675 -0.875)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a70716e0-e09e-48ce-bbde-fc2d97766850")
+	)
+	(fp_line
+		(start 0.675 0.875)
+		(end -0.675 0.875)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e54e2162-7d45-4f5c-b5a4-02c68d34efb9")
+	)
+	(fp_line
+		(start -2 1.15)
+		(end -2 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "316f4ff9-1b2f-4c89-b2f8-29469f549e55")
+	)
+	(fp_line
+		(start 2 -1.15)
+		(end -2 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "603f20ed-4113-4cb8-b241-2a942d103731")
+	)
+	(fp_line
+		(start 2 1.15)
+		(end -2 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b09e4b24-5afd-4343-937d-af6d37ac5a1c")
+	)
+	(fp_line
+		(start 2 1.15)
+		(end 2 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1b92331-99f6-4d66-bbd3-65aa17781f66")
+	)
+	(fp_line
+		(start -1.6 0.75)
+		(end -1.6 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ebf36b2e-7771-466c-af29-1750ec06a077")
+	)
+	(fp_line
+		(start 1.6 -0.75)
+		(end -1.6 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "532e2aab-f837-4f61-9a0c-fb03cb370dd5")
+	)
+	(fp_line
+		(start 1.6 0.75)
+		(end -1.6 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe705c84-f4db-46a1-bfea-45dbe008fcbb")
+	)
+	(fp_line
+		(start 1.6 0.75)
+		(end 1.6 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6537eed-87f9-452f-8972-8fcdda4a00c5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2 180)
+		(layer "F.Fab")
+		(uuid "6bf53b6c-a60c-4f04-b050-18ccac3e24b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.25 0)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "504dba5c-4280-458e-b904-d5b0288bbd4b")
+	)
+	(pad "2" smd rect
+		(at -1.25 0)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a74f19ae-ac3b-4425-a18a-8a83dd1d6792")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3215-2Pin_3.2x1.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

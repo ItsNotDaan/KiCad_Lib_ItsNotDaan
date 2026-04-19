@@ -1,0 +1,246 @@
+(footprint "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor handsolder")
+	(property "Reference" "REF**"
+		(at 1.35 1.35 0)
+		(layer "F.SilkS")
+		(uuid "388b5684-739c-4141-8707-9cf039d71ce2")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "3p3"
+		(at 0 1.43 0)
+		(layer "F.Fab")
+		(uuid "e7a28c2e-e51f-413f-9648-82744739447f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e939ce8c-98c5-4c9c-9bd9-ae82f248b0c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "50V 3.3pF C0G 0603"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7e20c69-971d-4e19-bffc-b19b7c6014c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Allied_Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efd5c2e0-72fe-452e-ac26-d7666d06dda1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC PART #" "C1660"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10f33e3f-4957-4d84-bf75-34466395a71c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "0603CG3R3C500NT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43c91d35-b621-4884-98fb-960268dc51f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Darfon Elec"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "034863ef-dc3d-411e-b299-1b91f41d6dab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.146267 -0.51)
+		(end 0.146267 -0.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30f997e7-c549-4d7e-bc26-8f64d11b4758")
+	)
+	(fp_line
+		(start -0.146267 0.51)
+		(end 0.146267 0.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51ff6715-2416-47d7-89b7-5f21b1719a03")
+	)
+	(fp_line
+		(start -1.65 -0.73)
+		(end 1.65 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "739b59ad-4031-42b0-ad33-47e9f02991ed")
+	)
+	(fp_line
+		(start -1.65 0.73)
+		(end -1.65 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5fd0f52c-a5e3-4b17-82c2-98350d2639df")
+	)
+	(fp_line
+		(start 1.65 -0.73)
+		(end 1.65 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a84c6324-b7a2-4b77-9836-72bdc6338084")
+	)
+	(fp_line
+		(start 1.65 0.73)
+		(end -1.65 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e7f8a24f-475d-4256-b0d8-aee52d16485b")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd29c088-7dd3-4582-a3a0-bad3a8c642f1")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26aaf886-cc30-4200-b932-d41975c3d470")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23bd0016-c342-4165-8455-56f6a740355f")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "461a8dd7-de8d-4a7e-a460-557d4323f2ec")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d6473457-ac14-45ef-9ccc-9798629cf739")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.8625 0)
+		(size 1.075 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c4615eec-e862-4549-b261-f02162885884")
+	)
+	(pad "2" smd roundrect
+		(at 0.8625 0)
+		(size 1.075 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "20d7213b-4482-4204-b0a8-9f64458b1ca5")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

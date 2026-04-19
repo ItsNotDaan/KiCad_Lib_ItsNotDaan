@@ -1,0 +1,279 @@
+(footprint "Crystal_SMD_3225-4Pin_3.2x2.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package")
+	(tags "SMD SMT crystal")
+	(property "Reference" "REF**"
+		(at 2.675 0 90)
+		(layer "F.SilkS")
+		(uuid "d13c99bd-baad-4f24-8b7f-9a8537646924")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "40MHz"
+		(at 0 2.450001 0)
+		(layer "F.Fab")
+		(uuid "edffd7d4-2ee0-46cf-bc07-c5dd8ef6cf6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2109151830_YXC-X252040MMB4SI_C2885592.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "790bf4c0-6c35-4424-a9ef-ddf2559160c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "40MHz SMD crystal oscillator 10pF ±10ppm ±20ppm SMD2520-4P Crystals ROHS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c608360-7dcd-4451-a873-57a740c66084")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Name" "X252040MMB4SI"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02c41602-7758-4f2e-ba65-157ff0323b9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Allied_Number" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0020cbf-e3bc-4620-bd97-afa5aec56625")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC PART #" "C2885592"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61cae523-5aec-4e92-aa8a-d6a801fb1f76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "X252040MMB4SI"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51805f17-dfcb-479f-9aee-f6f68e8c9835")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "YXC Crystal Oscillators"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "413700a1-cd95-4715-b64f-84615d65d438")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 1.65)
+		(end -2 -1.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1a120cc-11ea-4dd0-86bb-42c982e301b2")
+	)
+	(fp_line
+		(start 2 1.65)
+		(end -2 1.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f1e8e10-49cd-4c41-b4e6-4e86940037eb")
+	)
+	(fp_line
+		(start -2.1 -1.7)
+		(end 2.1 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "66b2f32f-1684-4f35-8784-4c8bea525381")
+	)
+	(fp_line
+		(start -2.1 1.7)
+		(end -2.1 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7bc4455e-079d-4e77-9bff-a258d8010862")
+	)
+	(fp_line
+		(start 2.1 -1.7)
+		(end 2.1 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b6349d86-3bc8-48c6-8de8-0a52677d985b")
+	)
+	(fp_line
+		(start 2.1 1.7)
+		(end -2.1 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ec04613-d614-4173-af1b-ccb39c0e3659")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c26d5cc-fb0d-4b37-9d0e-324f9d4260be")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end -1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e1a3556-a83f-4c5f-a92d-c7d9c9194b7d")
+	)
+	(fp_line
+		(start -0.600001 1.25)
+		(end -1.6 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69e874b6-d9a2-4b00-8fb0-52eae7507863")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "50816a5d-5c71-422f-8bcb-c5c8cad25956")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fbbd1f67-91fd-41f4-b022-f992616df9d3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d151f6cc-f56f-4aa7-a693-62c48e3ec062")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.105)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.1 0.85)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6e83fdfd-81cd-48c1-884e-0593389bbd7d")
+	)
+	(pad "2" smd rect
+		(at 1.1 0.85)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f7883285-194c-4dba-b466-05b280dc5be3")
+	)
+	(pad "3" smd rect
+		(at 1.1 -0.85)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ce7b2620-c23c-4b1d-9d43-a49d514b69e2")
+	)
+	(pad "4" smd rect
+		(at -1.1 -0.85)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "64f0714e-b3f2-44ca-8fc0-ca9bd0b871ab")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
