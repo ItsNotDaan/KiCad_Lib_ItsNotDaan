@@ -1,7 +1,7 @@
 (footprint "SOT230P700X180-4N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "sot-223")
 	(tags "Integrated Circuit")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" "SOT230P700X180-4N"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8ede9439-01ab-42b3-b2f2-ee788d4688ac")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -219,28 +209,29 @@
 	(pad "1" smd rect
 		(at -3.05 -2.3 90)
 		(size 0.9 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d80bc3f3-118c-4edb-8318-6cfaf8ebbe0c")
 	)
 	(pad "2" smd rect
 		(at -3.05 0 90)
 		(size 0.9 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "36032b97-3079-4a88-be21-db8669f3a04c")
 	)
 	(pad "3" smd rect
 		(at -3.05 2.3 90)
 		(size 0.9 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "12747b58-ac45-4c93-b432-3e46a04eb748")
 	)
 	(pad "4" smd rect
 		(at 3.05 0)
 		(size 1.9 3.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "91b171bb-1ed7-419d-a3a8-54882ced640f")
 	)
-	(model "C:\\Users\\Daanh\\OneDrive - Saxion\\Desktop\\KiCad Lib\\SamacSys\\SamacSys_Parts.3dshapes\\AP2114HA-3.3TRG1.stp"
+	(embedded_fonts no)
+	(model "C:/Users/Daanh/Desktop/KiCad Lib/KiCad_Lib_Daan/PCB_Lib_ItsNotDaan.3dshapes/AP2114HA-3.3TRG1.stp"
 		(offset
 			(xyz 0 0 0)
 		)

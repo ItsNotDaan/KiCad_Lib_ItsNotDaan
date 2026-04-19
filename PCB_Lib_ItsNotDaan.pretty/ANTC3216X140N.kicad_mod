@@ -1,14 +1,15 @@
 (footprint "ANTC3216X140N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "2450AT18B100E-1")
 	(tags "Antenna")
-	(property "Reference" "ANT**"
+	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "25a80d00-c738-4a48-ae95-66a505f6a500")
+		(hide yes)
+		(uuid "d4b4fd0e-2a8b-4fbe-91e8-687d23db32c2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,11 +17,11 @@
 			)
 		)
 	)
-	(property "Value" "ANTC3216X140N"
+	(property "Value" "KH-3216-H0209"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "d5aae471-6577-46e9-9975-5a9a3bc61cce")
+		(uuid "1891c249-4f46-42af-bec7-db7233693017")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28,39 +29,120 @@
 			)
 		)
 	)
-	(property "Footprint" "ANTC3216X140N"
+	(property "Datasheet" "https://www.johansontechnology.com/datasheets/2450AT18B100/2450AT18B100.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "573a8ee4-8b62-443d-9bf1-205b0f713cbf")
+		(uuid "d54f30e3-7cef-4302-928f-a08c34e0d7f2")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Description" "1206 Antennas"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "71e9ab75-41d8-4368-b2d2-4484658dafd2")
+		(uuid "db9316d2-59dc-4d62-b39a-d6891ac899f5")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Height" "1.4"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e36c8ea5-49ce-4ed1-bc59-2083d80e4b2f")
+		(uuid "53eaff09-dbdb-40f7-a9ee-3dedb0ba0a26")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RS Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a23ffe0a-4ae3-4393-a126-998ab777dc78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RS Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "485c6032-6d3f-4936-bd38-187e592f7297")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Shenzhen Kinghelm Elec"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c693888c-1120-46b0-82ea-c83e0f73b6e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "KH-3216-H0209"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a77cac1-234e-4e0f-8827-8acaa6accf3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Allied_Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d29f39fd-7374-4e0b-8632-10e2c8645d97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC PART #" "C2925417"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1b0a645-616e-48f4-860f-0dc7e4d3e56a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -73,7 +155,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "86a2b9eb-d32e-4975-aba5-c76782f41d77")
+		(uuid "358c6d3d-49cb-416e-978a-33df074489fa")
 	)
 	(fp_line
 		(start -2.425 1.25)
@@ -83,7 +165,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b830afff-5868-478e-bf3b-940679720e31")
+		(uuid "18df441b-a25d-4240-904c-5bd3f483ca3d")
 	)
 	(fp_line
 		(start 1.5 -1.25)
@@ -93,7 +175,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bf654338-5055-498f-bd91-cc78a35b3caa")
+		(uuid "44ddcd3d-81ec-4265-839f-d79fb8c36621")
 	)
 	(fp_line
 		(start -2.525 -1.35)
@@ -103,7 +185,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6e683842-57c8-4187-a90b-f4f358a5592b")
+		(uuid "740e7b14-4223-4df4-afb6-da113012b545")
 	)
 	(fp_line
 		(start -2.525 1.35)
@@ -113,7 +195,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c38a5364-51fa-4740-be66-ee86e704f003")
+		(uuid "9a9bcbeb-c23a-4fb8-8fcd-52600874d939")
 	)
 	(fp_line
 		(start 2.525 -1.35)
@@ -123,7 +205,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "568c8122-53b5-4b47-82dd-ceea91d5425a")
+		(uuid "efd6b2d3-3c9f-46a1-9a8d-3ab619daf592")
 	)
 	(fp_line
 		(start 2.525 1.35)
@@ -133,7 +215,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "184f1f72-93bf-451f-8303-1c7fd3257d65")
+		(uuid "9f4a51e1-c434-4db0-a509-7a5f7867fe9c")
 	)
 	(fp_line
 		(start -1.6 -0.8)
@@ -143,7 +225,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "5fc2f8b6-6674-402a-b205-7a699f6d6f8d")
+		(uuid "7f1b71e7-6244-42ae-8fff-73e4e66786e0")
 	)
 	(fp_line
 		(start -1.6 -0.225)
@@ -153,7 +235,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "33becd55-c63a-42bc-836e-942a76cdf281")
+		(uuid "1377fbd8-a315-4f14-98ca-c114ea2bc742")
 	)
 	(fp_line
 		(start -1.6 0.8)
@@ -163,7 +245,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "fa00d892-286f-4a45-9abd-e9655288633b")
+		(uuid "d22c7832-e777-4f7b-971e-d9a07c637915")
 	)
 	(fp_line
 		(start 1.6 -0.8)
@@ -173,7 +255,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4e529991-d52c-4e5f-8ab4-c33cc0f7fae9")
+		(uuid "6b9b2af6-a6da-4444-a71e-d070712a16a6")
 	)
 	(fp_line
 		(start 1.6 0.8)
@@ -183,12 +265,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "57bb967e-cfb3-4cf4-942d-905c71f3d522")
+		(uuid "f3d0edb8-18aa-4abe-bcb1-869942a22ab9")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "49fb384d-2ccf-4519-a913-b0520b3f016f")
+		(uuid "8f5f5a1e-c2af-4461-b908-fb3509486848")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -199,17 +281,17 @@
 	(pad "1" smd rect
 		(at -1.5 0)
 		(size 1.15 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "c76ae994-faa1-4e2b-8c06-5cd5556fda7b")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c93f1831-45d5-48ec-a3b5-1d266af02dd6")
 	)
 	(pad "2" smd rect
 		(at 1.5 0)
 		(size 1.15 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "1d0645b1-f08f-4f7a-a957-2413523bac73")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1695312f-299f-4f78-b4eb-db38797647cc")
 	)
-	(model "C:\\Users\\Daanh\\OneDrive - Saxion\\Desktop\\KiCad Lib\\SamacSys_Parts.3dshapes\\2450AT18B100E.stp"
-		(hide yes)
+	(embedded_fonts no)
+	(model "C:/Users/Daanh/OneDrive - Saxion/Desktop/KiCad Lib/KiCad_Lib_Daan/PCB_Lib_ItsNotDaan.3dshapes/2450AT18B100E.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -220,7 +302,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD_USER_CUSTOM}/SamacSys/SamacSys_Parts.3dshapes/2450AT18B100E.stp"
+	(model "C:/Users/Daanh/Desktop/KiCad Lib/KiCad_Lib_Daan/PCB_Lib_ItsNotDaan.3dshapes/2450AT18B100E.stp"
 		(offset
 			(xyz 0 0 0)
 		)

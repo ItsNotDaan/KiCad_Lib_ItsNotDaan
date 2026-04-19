@@ -1,26 +1,27 @@
 (footprint "WS2812C2020"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "WS2812C-2020-2")
 	(tags "LED")
-	(property "Reference" "LED**"
-		(at 0 0 0)
-		(layer "F.SilkS")
-		(uuid "ba9a89ae-a250-4d15-9f1b-a7e602bd5f71")
+	(property "Reference" "REF**"
+		(at 0.075 -2.3 0)
+		(layer "F.SilkS" knockout)
+		(hide yes)
+		(uuid "fe2ac800-8e3d-4224-a9d9-7fd3884ce44d")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 0.7 0.7)
+				(thickness 0.15)
 			)
 		)
 	)
-	(property "Value" "WS2812C2020"
+	(property "Value" "WS2812C-2020-V1"
 		(at 0 2.54 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "bc9ce038-949a-43bf-b365-8ffa3ddacb4b")
+		(uuid "48b85fa1-f5fa-4ba7-939b-ea5b07462ea7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28,39 +29,120 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Datasheet" "http://www.world-semi.com/DownLoadFile/139"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "69ee814a-0099-431f-8c21-69e9b272f4c6")
+		(uuid "c6a91241-b7aa-4233-bc4e-5aa78560e8ea")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Description" "Intelligent control LED integrated light source"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9a9657fc-727b-4664-8996-88ebc9bad197")
+		(uuid "8e3c42ba-53f5-4b45-bdb4-276bf1de2b00")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Height" "0.84"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7f3d8a02-56f3-4200-8bc3-23ec688962e9")
+		(uuid "b542ad48-e547-4dc9-ad91-470f095f6e50")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RS Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a6a03b9-0451-401b-b300-ff6ef9c442fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RS Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93c77f33-a4c3-4227-87fa-d3c0260051e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Worldsemi"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ea75d76-5961-4150-910c-3f493cf5214e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "WS2812C-2020"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e4181c7-8095-4af5-a8fa-bdb82647dc46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Allied_Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e617b617-0fa4-45a1-b387-116bc19bf1d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC PART #" "C2976072"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f41f8cb-d4b7-46fa-a37f-ec09b644e219")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -73,7 +155,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "82ffecb8-685a-45bd-9aa3-ff5c823c7a3e")
+		(uuid "f3584251-d9f6-4950-97d1-c9baa25920e1")
 	)
 	(fp_line
 		(start -0.4 1)
@@ -83,7 +165,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "68292fad-dc1d-4ef9-a85b-c579e1585952")
+		(uuid "50401025-9911-439e-90e5-c66e1d8e31c9")
 	)
 	(fp_line
 		(start 0.8 1.5)
@@ -93,7 +175,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d7a38a49-1f65-4180-8efd-fc42bb6e37aa")
+		(uuid "af2c6c8a-ac86-4c7d-a672-e2f8e6579703")
 	)
 	(fp_line
 		(start 1 1.5)
@@ -103,7 +185,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7ef093b3-c169-4648-8ad8-599ea0e7b652")
+		(uuid "a27e7baf-4458-477f-a093-956c87cd77bd")
 	)
 	(fp_arc
 		(start 0.8 1.5)
@@ -114,7 +196,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "cd4fe494-c08d-419f-a13a-17062d1a40f3")
+		(uuid "9fad0087-b5c7-4f2e-bafa-d3960aed4fc6")
 	)
 	(fp_arc
 		(start 1 1.5)
@@ -125,7 +207,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c144332e-4cb1-4168-8805-4c1a084d45f1")
+		(uuid "5da78a9f-58b2-4725-9b61-3a0bd96008f8")
 	)
 	(fp_line
 		(start -2.265 -2)
@@ -135,7 +217,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "254a4157-9224-41be-8780-d3cea6434177")
+		(uuid "e497551c-1667-46c5-bfa4-eb8683068341")
 	)
 	(fp_line
 		(start -2.265 2)
@@ -145,7 +227,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "7c40bc06-62df-4430-8712-9a2c451e3741")
+		(uuid "9f985dd8-b65d-4e9b-a453-e9751ac04006")
 	)
 	(fp_line
 		(start 2.265 -2)
@@ -155,7 +237,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "de554403-e70a-4c42-aa1d-03d3796d1cd8")
+		(uuid "de4b97f0-8265-4dd8-9d6f-aaade94edbd0")
 	)
 	(fp_line
 		(start 2.265 2)
@@ -165,7 +247,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "dc635888-7697-4a95-84da-611f5f81276e")
+		(uuid "e9fd0e5f-3a84-439f-9a23-cd045c623c7f")
 	)
 	(fp_line
 		(start -1.1 -1)
@@ -175,7 +257,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a96d87af-10bf-4abc-bc23-e298492f7a18")
+		(uuid "c86edef2-d639-4344-b284-f650734da3d1")
 	)
 	(fp_line
 		(start -1.1 1)
@@ -185,7 +267,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3b68ee5c-0bdf-4cc1-a045-c491625b639a")
+		(uuid "355e6e64-416d-4255-9041-854d911e0ebd")
 	)
 	(fp_line
 		(start 1.1 -1)
@@ -195,7 +277,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "98b5dfe0-66ab-4b22-906c-07170c648199")
+		(uuid "0df111f3-4679-4353-a2d4-4c9eb128b997")
 	)
 	(fp_line
 		(start 1.1 1)
@@ -205,12 +287,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "20cd046d-eeae-49d2-b843-be9b2aff3a71")
+		(uuid "5b4ecb94-38f6-4c62-a65e-7bba44aa2d9f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "4d24c400-a86b-47a8-b18f-b5de04f381e5")
+		(uuid "4a16ab69-b153-4bd9-9429-b3f660396194")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -221,27 +303,28 @@
 	(pad "1" smd rect
 		(at 1.235 0.55 90)
 		(size 0.7 1.34)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "7f46b19b-dc1e-4993-ba0b-7172686cbba8")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "51033b66-4781-4d0f-bfde-6f2d7e341ed2")
 	)
 	(pad "2" smd rect
 		(at 1.235 -0.55 90)
 		(size 0.7 1.34)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "f8919d3b-69be-45d0-aa46-0940e7c5a562")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3725edfc-cd68-4851-9394-84cb0f99d191")
 	)
 	(pad "3" smd rect
 		(at -1.235 -0.55 90)
 		(size 0.7 1.34)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "4ded820b-3897-4d64-94bf-a31b30aeb5b5")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "64d3fd1f-c9b1-4f89-9549-ab2d5e7c84fb")
 	)
 	(pad "4" smd rect
 		(at -1.235 0.55 90)
 		(size 0.7 1.34)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "4b928aaf-18eb-413d-99e1-7d49501675dd")
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "73a2293e-c239-4775-bb0b-8de22ed2e3de")
 	)
+	(embedded_fonts no)
 	(model "C:\\Users\\Daanh\\OneDrive - Saxion\\Desktop\\KiCad Lib\\SamacSys_Parts.3dshapes\\WS2812C-2020.stp"
 		(offset
 			(xyz 0 0 0.1500000037)
@@ -253,7 +336,7 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "${KICAD_USER_CUSTOM}/SamacSys/SamacSys_Parts.3dshapes/WS2812C-2020.stp"
+	(model "C:/Users/Daanh/Desktop/KiCad Lib/KiCad_Lib_Daan/PCB_Lib_ItsNotDaan.3dshapes/WS2812C-2020.stp"
 		(offset
 			(xyz 0 0 0)
 		)
